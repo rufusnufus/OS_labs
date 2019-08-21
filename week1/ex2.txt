@@ -1,0 +1,30 @@
+  526  echo > f.txt tutochki
+  527  cat f.txt
+  528  jobs
+  529  fg %1
+  530  mkdir ~/week1
+  531  cd ~/week1
+  532  ~
+  533  ls
+  534  /usr/bin
+  535  cat /usr/bin 
+  536  ls /usr/bin 
+  537  ls
+  538  man ls
+  539  ls /usr/bin -r
+  540  ls -r /usr/bin 
+  541  ls -r /usr/bin | cat
+  542  ls -r /usr/bin | echo
+  543  ls -r /usr/bin | grep gcc
+  544  grep gcc
+  545  ls -r /usr/bin | grep gcc > ~/week1/ex1.txt
+  546  cat ~/week1/ex1.txt
+  547  ~/week1/ex1.txt
+  548  history > ex2.txt
+  549  cat ~/week1/ex2.txt
+  550  -r ex2.txt
+  551  rm ex2.txt
+  552  history| tail -n 20 
+  553  history| tail -n 20 
+  554  history| tail -n 30
+  555  history| tail -n 30 > ex2.txt
