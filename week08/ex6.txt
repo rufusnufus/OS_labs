@@ -1,0 +1,7 @@
+With 8-KB size of page and a 16-bit virtual address space, 
+the number of virtual pages is 2^16/2^13, which is 2^3 = 8. 
+And we know that in a single-level linear page table the 
+number of entries is the same as the number of pages, 
+so the answer is 2^3 = 8.
+
+Answer: 8 entries.
