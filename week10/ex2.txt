@@ -1,0 +1,8 @@
+touch ../week1/file.txt
+link ../week1/file.txt _ex2.txt
+ls -i _ex2.txt
+>12892150398 _ex2.txt
+find ../week1/ -inum 12892150398
+>../week1//file.txt
+find ../ -inum 12892150398 -exec rm {} \;
+>

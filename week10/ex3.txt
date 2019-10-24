@@ -1,0 +1,24 @@
+-rw-rw-rw-  1 rufusnufus  staff  0 24 окт 22:34 _ex3.txt
+
+-rwx---rwx  1 rufusnufus  staff  0 24 окт 22:34 _ex3.txt
+
+-rw-rw----  1 rufusnufus  staff  0 24 окт 22:34 _ex3.txt
+660(decimal) = 110110000(binary)
+so, first 3 bits are for user, next 3 bits are for group, last 3 bits are for others
+for user - 110 - read and write bits are set(permitted), but execute is not. 
+for group - 110 - the same as for user.
+for others - 000 - no permissions.
+
+-rwxrwxr-x  1 rufusnufus  staff  0 24 окт 22:34 _ex3.txt
+775(decimal) = 111111101(binary)
+so, first 3 bits are for user, next 3 bits are for group, last 3 bits are for others
+for user - 111 - read, write and execute bits are set(permitted). 
+for group - 111 - the same as for user.
+for others - 101 - read and write bits are set(permitted), but execute is not. 
+
+-rwxrwxrwx  1 rufusnufus  staff  0 24 окт 22:34 _ex3.txt
+777(decimal) = 111111111(binary)
+so, first 3 bits are for user, next 3 bits are for group, last 3 bits are for others
+for user - 111 - read, write and execute bits are set(permitted). 
+for group - 111 - the same as for user.
+for others - 111 - the same as previous. 
