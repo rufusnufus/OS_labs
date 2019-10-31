@@ -1,0 +1,6 @@
+The difference is in printing "Hello\nHello\n" or "Hello\n\n". 
+Probably buffer devastates when meets '\n' symbol, that's why in the 1st program 
+fork() copied not empty buffer("Hello") after that both processes have each buffer 
+with "Hello" and after that each executes printf("\n"), while in the 2nd program 
+fork() makes buffer empty after printf("Hello\n"), so both processes have empty 
+buffers before printf("\n").
